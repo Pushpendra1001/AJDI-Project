@@ -1,0 +1,293 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: whitesmoke;
+}
+
+body {
+  /* height: 100%; */
+}
+
+section {
+  background-image: radial-gradient(circle, #000439, black);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  height: 15vh;
+  /* background-color: purple; */
+  /* background-color: red; */
+
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title_left {
+  display: flex;
+}
+
+nav img {
+  height: 50px;
+  width: 50px;
+  padding: 1px;
+}
+nav h3 {
+  /* width: 150px; */
+  font-size: 32px;
+  padding-left: 15px;
+  margin: 8px 20px;
+}
+
+.nav_link ul li {
+  list-style: none;
+  display: inline-block;
+  /* padding: 8px 12px; */
+}
+
+.nav_link ul li a {
+  text-decoration: none;
+  font-size: 23px;
+  padding: 8px 8px;
+}
+
+.nav_link ul li a {
+  width: 0%;
+  height: 2px;
+  /* background-color: #f44336; */
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.nav_link ul li a:hover {
+  border-bottom: 3px solid red;
+}
+
+.conatiner {
+  height: 85vh;
+  width: 100%;
+  /* display: flex; */
+}
+
+.content{
+    display: flex;
+}
+
+.right_side{
+    text-decoration: none;
+    display: flex;
+
+}
+
+.right_side a{
+    justify-self: center;
+    justify-content: center;
+}
+
+
+
+.container .left_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* align-items: center; */
+}
+
+.headings{
+    margin: 10%;
+}
+
+.container .left_side h2 {
+  /* font-size: 18px; */
+  margin-top: 100px;
+}
+
+.container .left_side H4 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* About us page start  */
+
+.about_us {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.left_side {
+  width: 50%;
+  font-size: 40px;
+  text-align: left;
+  margin: 30px;
+  /* background-color: red; */
+  /* height: 100vh; */
+}
+
+.left_side h2 {
+  margin-bottom: 20px;
+}
+
+.right_side {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.right_side img {
+  border-radius: 10px;
+  height: 230px;
+  width: 230px;
+}
+
+.right_side p {
+  margin: 40px;
+  font-size: 30px;
+}
+
+/*  Team page start  */
+
+.our_team_page {
+  height: 100vh;
+  width: 100%;
+}
+
+.greet {
+  height: 30vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+.greet h2{
+    font-size: 50px;
+    text-align: left;
+    margin-left: 70px;
+    /* margin-top: 100px; */
+}
+
+.greet h4{
+    font-size: 24px;
+    text-align: left;
+    /* margin: 10px; */
+}
+
+
+
+
+.card_box {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards {
+  margin: 5px;
+  height: 300px;
+  width: 250px;
+  background-color: red;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 20px;
+  box-shadow: 10px -10px 5px gray;
+}
+
+.cards img {
+  height: 100px;
+  border-radius: 100%;
+  width: 100px;
+  align-self: center;
+}
+
+.cards a {
+  text-decoration: none;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 8px;
+  display: inline;
+  width: 100px;
+  align-self: center;
+}
+
+.cards h3 {
+  width: 200px;
+  align-self: center;
+}
+
+.greet h2 {
+  font-size: 35px;
+  text-align: left;
+}
+
+.our_team h4 {
+  font-size: 24px;
+  text-align: left;
+}
+
+/*  Contact us page start  */
+
+.contact_us{
+    display: flex;
+    height: 100vh;
+}
+.left_side1{
+    width: 70%;
+    height: 100vh;
+  font-size: 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.data{
+    margin: 10%;
+    height: 100vh;
+  font-size: 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.data a{
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: red;
+}
+.right_side1{
+    width: 30%;
+    /* text-align: center; */
+}
+
+
+
+.right_side1 .logo img{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.right_side1 h2{
+    font-size: 50px;
+    border-bottom: 1px solid white ;
+    display: inline;
+    margin: 10px;
+}
+
+.right_side1 h3{
+    font-size: 20px;
+    margin: 10px;
+}
